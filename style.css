@@ -1,0 +1,127 @@
+/* 1. Selectores de Elemento (Especificidad Baja) */
+body {
+
+    font-family:Arial, Verdana, sans-serif;
+    background-color: #F5E6D3
+}
+
+header{
+
+    background: linear-gradient(45deg, #1A2C4E, #2A3C5E);
+    color: (#C0A060);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding: 2rem 0;
+    text-align: center;
+    
+}
+
+img {
+    width: auto;  /* El ancho se ajustará automáticamente */
+    height: 300px; /* Establece el alto */
+    Border-radius:4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s ease-in-out;
+}
+img:hover {
+    transform: scale(1.02);
+    
+}
+
+
+
+h1, h2, h3, h4, h5 {
+
+    font-family: Georgia, Garamond, serif;
+    color: #C0A060
+}
+
+p {
+    font-size: 1rem (16px);
+    color: #1A2C4E;
+    margin-bottom: 1rem (16px)
+}
+
+h1 {
+    font-size: 2.5rem (40px);
+}
+
+h2 {
+    font-size: 2rem (32px);
+    
+}
+
+h3 {
+    font-size: 1.75rem (28px);
+}
+
+h4 {
+    font-size: 1.5rem (24px);
+    color: #707070
+
+}
+
+h5 {
+    font-size: 1.25rem (20px);
+    color: #707070
+
+}
+
+div {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px,
+}
+
+section {
+    margin-bottom: 3rem (48px);
+    padding: 1.5rem;
+    
+}
+
+article {
+    margin-bottom: 2rem (32px);
+    padding: 1.5rem;
+}
+
+a{
+color: #1A3C8C;
+transition: 0.3s ease-in-out;
+text-decoration: none;
+}
+
+a:hover {
+    color: #C0A060;
+    text-decoration: underline; 
+}
+
+
+aside {   
+    background-color:#FFFFFF;
+    border:2px solid rgba(192,160,96,0.2);
+    border-radius:8px;
+    box-shadow:0 2px 4px rgba(0,0,0,0.05);
+    padding: 1.25rem;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+span {
+color:#8C1616;
+}
+
+header p {
+    color: #C0A060;
+}
+
+/* 2. Clases de Componentes (Especificidad Media) */
+/* EJEMPLO */
+section.war {
+   margin: 0;
+}
+
+/* 3. Clases de Utilidad (Especificidad Alta) */
+/* EJEMPLO */
+
+.text-center {
+    text-align: center;
+}
